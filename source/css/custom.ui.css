@@ -58,6 +58,14 @@
         margin-left: 10px;
     }
 
+    .header_bar .title_search {        
+        font-size: 30px;        
+        color:#ffffff;                
+        border: 0px solid #000;        
+        white-space: nowrap;
+        position:absolute;        
+    }
+
 .homesearch {
     margin-top: 0;
 }
