@@ -11,7 +11,7 @@ function InitTapEvent_ForProductList() {
         var id = $(this).attr("id");
         id = id.replace('product_', '');
 
-        pageUrl = "resultsearch.html";
+        pageUrl = "productdetail.html";
         //alert(pageUrl + "|" + id);
         $.mobile.changePage(pageUrl, { transition: "fade" });
     });
