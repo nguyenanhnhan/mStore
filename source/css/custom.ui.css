@@ -30,19 +30,30 @@
     background-repeat: repeat-x;    
 }
 
-    .header_bar .title_text {
-        float: left;
-        font-size: 30px;
-        margin-top: 25px;
-        margin-left: 20px;
-        color:#ffffff;
-        width: 650px;        
+    .header_bar .title_text {        
+        font-size: 30px;        
+        color:#ffffff;                
         border: 0px solid #000;        
         white-space: nowrap;
+        position:absolute;        
     }
+        .header_bar .home {
+            width: 650px;
+            top: 30px;
+            left: 100px;
+        }
+        .header_bar .none {
+            width: 740px;
+            top: 30px;
+            left: 10px;
+        }
+        .header_bar .titlebefore {
+            width: 600px;
+            top: 30px;
+            left: 150px;
+        }
 
-    .header_bar .title_image {
-        float: left;
+    .header_bar .title_image {                
         margin-top: 7px;
         margin-left: 10px;
     }
