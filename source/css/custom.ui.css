@@ -1,0 +1,19 @@
+﻿.bottom_bar {
+     height:100px; 
+     background-image: url('../images/bg_footer.png'); 
+     background-repeat:repeat-x;
+}
+    .bottom_bar ul {
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+        .bottom_bar ul li {
+            width:150px;
+            display: table-cell;
+        }
+ 
+.header_bar {    
+     height:100px; 
+     background-image: url('../images/bg_header.png'); 
+     background-repeat:repeat-x;
+}
