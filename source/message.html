@@ -7,32 +7,42 @@
 	<link rel="stylesheet" href="lib_BB10/BlackBerry-JQM-all.css" />
 	<script src="lib_BB10/BlackBerry-JQM-all.js"></script>
 	<script type="text/javascript" src="lib_BB10/app.js"></script>
-
-
-    <link rel="stylesheet" href="css/custom.ui.css" />
+	<link rel="stylesheet" href="css/custom.ui.css" />
 </head>
 <body>
 	<div data-role="page" data-theme="b" id="message">
 		<div data-role="header" data-theme="d" data-position="fixed" class="header_bar">
-<!-- 			<a href="inbox.html" data-role="button" class="header-back" data-icon="arrow-l" data-iconpos="left" data-inline="true" data-theme="d" ></a> -->
-			<div class="title_text">Thư thông báo thanh toán hoá đơn</div>
+			<a data-rel="back" data-role="button" class="header-back" data-icon="arrow-l" data-iconpos="left" data-inline="true" data-theme="d" ></a>
+			<div class="title_text titlebefore">Thư thông báo hoá đơn mua hàng </div>
 		</div>
 		<div data-role="content">
 			
 		</div>
 		<div data-role="footer" class="bottom_bar" data-position="fixed" data-theme="d">
 			<ul>
-                <li><a href="index.html">
-                    <img src="icons/48_white/Home.png" /></a></li>
-                <li><a href="inbox.html">
-                    <img src="icons/48_white/Messages-Information.png" /></a></li>
-                <li><a href="cart.html">
-                    <img src="icons/48_white/Shopping-Cart-02.png" /></a></li>
-                <li><a href="wishlist.html">
-                    <img src="icons/48_white/Favorites.png" /></a></li>
-                <li><a href="more.html">
-                    <img src="icons/48_white/View-Details.png" /></a></li>
-            </ul>
+				<li><a href="index.html">
+					<img src="icons/48_white/Home.png" /></a></li>
+				<li><a href="inbox.html">
+					<img src="icons/48_white/Messages-Information.png" /></a></li>
+				<li><a href="cart.html">
+					<img src="icons/48_white/Shopping-Cart-02.png" /></a></li>
+				<li><a href="wishlist.html">
+					<img src="icons/48_white/Favorites.png" /></a></li>
+				<li><a data-role="action-overflow" href="#right">
+					<img src="icons/48_white/View-Details.png" /></a></li>
+			</ul>
+		</div>
+		<div data-role="panel" id="right" data-position="right" data-display="overlay" data-theme="a" class="bb10-panel">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="#">Share</a></li>
+				<li><a href="#">Edit</a></li>
+				<li><a href="#">Set As</a></li>
+			</ul>
+			<div data-role="fixedpanelbutton">
+				<ul data-role="listview" data-theme="a">
+					<li><a href="#">Delete</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </body>

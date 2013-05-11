@@ -106,3 +106,13 @@
     min-width: 60px;
     margin-top: -15px;
 }
+
+.ui-btn-active{
+	background: transparent;
+	border: transparent;
+	/*
+background-image: -webkit-gradient(linear, left top, left bottom, from(), to(#00a8df));
+	background-image: -webkit-linear-gradient(#00a8df, #00a8df);
+	background-image: linear-gradient(#00a8df, #00a8df);
+*/
+}
