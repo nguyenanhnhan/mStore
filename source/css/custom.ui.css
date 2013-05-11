@@ -40,3 +40,32 @@
         width: 99%;
     }
 
+.homeProducts {
+    margin-top:10px;
+}
+    .homeProducts .group_Products {
+    }
+        .homeProducts .group_Products .title {
+            color: #fca62b;
+        }
+        .homeProducts .group_Products .more {
+            color: #808080;
+            float:right;
+            margin-right:10px;
+            font-weight:normal;
+        }
+        .homeProducts .group_Products hr {
+            margin: 5px 5px 10px 0px;            
+        }
+        .homeProducts .group_Products .product {
+            width:230px;
+            height:230px;            
+            display: table-cell;            
+            padding:5px;
+        }
+            .homeProducts .group_Products .product img {
+                border: 1px solid #c3c3c3; 
+                width: 230px; 
+                height: 230px;
+            }
+

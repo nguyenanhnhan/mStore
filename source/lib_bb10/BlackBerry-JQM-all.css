@@ -3095,10 +3095,10 @@ div[data-role="page"][data-theme="a"] fieldset.ui-controlgroup .ui-controlgroup-
   border: 1px solid #b3b3b3;
   color: #ffffff;
   text-shadow: 0 1px 0 #ffffff;
-  background: #ffffff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
-  background-image: -webkit-linear-gradient(#ffffff, #ffffff);
-  background-image: linear-gradient(#ffffff, #ffffff);
+  background: #dddddd;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c0c0c0), to(#f9f9f9));
+  background-image: -webkit-linear-gradient(#c0c0c0, #f9f9f9);
+  background-image: linear-gradient(#c0c0c0, #f9f9f9);
 }
 .ui-btn-up-b {
   border: 1px solid #cccccc;
@@ -3147,7 +3147,7 @@ div[data-role="page"][data-theme="a"] fieldset.ui-controlgroup .ui-controlgroup-
 }
 .ui-header.ui-bar-b,
 .ui-listview-filter.ui-bar-b {
-  /*background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.2))), -webkit-gradient(linear, left center, right center, from(#0073bc), to(#00a8df));*/
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.2))), -webkit-gradient(linear, left center, right center, from(#0073bc), to(#00a8df));
 }
 .ui-header.ui-bar-b .ui-title,
 .ui-listview-filter.ui-bar-b .ui-title {
