@@ -58,21 +58,20 @@
         margin-left: 10px;
     }
 
-    .header_bar .title_search {        
-        font-size: 30px;        
-        color:#ffffff;                
-        border: 0px solid #000;        
-        white-space: nowrap;
-        position:absolute;        
-    }
-
 .homesearch {
     margin-top: 0;
 }
-
     .homesearch .ui-input-search {
         width: 99%;
     }
+    
+.searchpage {
+    
+}
+    .searchpage .ui-input-search {
+        width: 99%;
+    }
+
 
 .homeProducts {
     margin-top: 10px;
