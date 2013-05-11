@@ -69,3 +69,8 @@
                 height: 230px;
             }
 
+.ui-header .header-back{
+	width: 100px;
+	min-width: 60px;
+	margin-top: -10px;
+}
