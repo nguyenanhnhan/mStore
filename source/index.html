@@ -4,129 +4,135 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>jQuery Mobile: Theme Download</title>
-    <link rel="stylesheet" href="themes/mStore.css" />
-    <link rel="stylesheet" href="css/jquery.mobile.structure-1.3.1.min.css" />
+
+    <link rel="stylesheet" href="lib_BB10/BlackBerry-JQM-all.css" />
+    <script src="lib_BB10/BlackBerry-JQM-all.js"></script>
+    <script type="text/javascript" src="lib_BB10/app.js"></script>
+
+    <!--<link rel="stylesheet" href="themes/mStore.css" />-->
+    <!--<link rel="stylesheet" href="css/jquery.mobile.structure-1.3.1.min.css" />-->
     <link rel="stylesheet" href="css/custom.ui.css" />
-    <script src="js/jquery-1.9.1.min.js"></script>
-    <script src="js/jquery.mobile-1.3.1.min.js"></script>
+    <!--<script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.mobile-1.3.1.min.js"></script>-->
 </head>
 <body>
-    <div data-role="page" data-theme="a">
-        <div data-role="header" data-position="fixed" class="header_bar">
-            <h1>It Worked!</h1>
+    <div data-role="page" data-theme="b" id="home_page">
+
+
+
+<!--        <div data-role="header" data-theme="b" data-position="fixed">
+            <h1>BB10 JQM KitchenSink</h1>
         </div>
-        <div data-role="content" data-theme="a">
-            <p>Your theme was successfully downloaded. You can use this page as a reference for how to link it up!</p>
-            <pre>
-<strong>&lt;link rel=&quot;stylesheet&quot; href=&quot;themes/mStore.min.css&quot; /&gt;</strong>
-&lt;link rel=&quot;stylesheet&quot; href=&quot;http://code.jquery.com/mobile/1.3.1/jquery.mobile.structure-1.3.1.min.css&quot; /&gt;
-&lt;script src=&quot;http://code.jquery.com/jquery-1.9.1.min.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js&quot;&gt;&lt;/script&gt;
-				</pre>
-            <p>This is content color swatch "A" and a preview of a <a href="#" class="ui-link">link</a>.</p>
-            <label for="slider1">Input slider:</label>
-            <input type="range" name="slider1" id="slider1" value="50" min="0" max="100" data-theme="a" />
-            <fieldset data-role="controlgroup" data-type="horizontal" data-role="fieldcontain">
-                <legend>Cache settings:</legend>
-                <input type="radio" name="radio-choice-a1" id="radio-choice-a1" value="on" checked="checked" />
-                <label for="radio-choice-a1">On</label>
-                <input type="radio" name="radio-choice-a1" id="radio-choice-b1" value="off" />
-                <label for="radio-choice-b1">Off</label>
-            </fieldset>
-            <p>Your theme was successfully downloaded. You can use this page as a reference for how to link it up!</p>
-            <pre>
-<strong>&lt;link rel=&quot;stylesheet&quot; href=&quot;themes/mStore.min.css&quot; /&gt;</strong>
-&lt;link rel=&quot;stylesheet&quot; href=&quot;http://code.jquery.com/mobile/1.3.1/jquery.mobile.structure-1.3.1.min.css&quot; /&gt;
-&lt;script src=&quot;http://code.jquery.com/jquery-1.9.1.min.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js&quot;&gt;&lt;/script&gt;
-				</pre>
-            <p>This is content color swatch "A" and a preview of a <a href="#" class="ui-link">link</a>.</p>
-            <label for="slider1">Input slider:</label>
-            <input type="range" name="slider1" id="Range1" value="50" min="0" max="100" data-theme="a" />
-            <fieldset data-role="controlgroup" data-type="horizontal" data-role="fieldcontain">
-                <legend>Cache settings:</legend>
-                <input type="radio" name="radio-choice-a1" id="radio1" value="on" checked="checked" />
-                <label for="radio-choice-a1">On</label>
-                <input type="radio" name="radio-choice-a1" id="radio2" value="off" />
-                <label for="radio-choice-b1">Off</label>
-            </fieldset>
-            <p>Your theme was successfully downloaded. You can use this page as a reference for how to link it up!</p>
-            <pre>
-<strong>&lt;link rel=&quot;stylesheet&quot; href=&quot;themes/mStore.min.css&quot; /&gt;</strong>
-&lt;link rel=&quot;stylesheet&quot; href=&quot;http://code.jquery.com/mobile/1.3.1/jquery.mobile.structure-1.3.1.min.css&quot; /&gt;
-&lt;script src=&quot;http://code.jquery.com/jquery-1.9.1.min.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js&quot;&gt;&lt;/script&gt;
-				</pre>
-            <p>This is content color swatch "A" and a preview of a <a href="#" class="ui-link">link</a>.</p>
-            <label for="slider1">Input slider:</label>
-            <input type="range" name="slider1" id="Range2" value="50" min="0" max="100" data-theme="a" />
-            <fieldset data-role="controlgroup" data-type="horizontal" data-role="fieldcontain">
-                <legend>Cache settings:</legend>
-                <input type="radio" name="radio-choice-a1" id="radio3" value="on" checked="checked" />
-                <label for="radio-choice-a1">On</label>
-                <input type="radio" name="radio-choice-a1" id="radio4" value="off" />
-                <label for="radio-choice-b1">Off</label>
-            </fieldset>
-            <p>Your theme was successfully downloaded. You can use this page as a reference for how to link it up!</p>
-            <pre>
-<strong>&lt;link rel=&quot;stylesheet&quot; href=&quot;themes/mStore.min.css&quot; /&gt;</strong>
-&lt;link rel=&quot;stylesheet&quot; href=&quot;http://code.jquery.com/mobile/1.3.1/jquery.mobile.structure-1.3.1.min.css&quot; /&gt;
-&lt;script src=&quot;http://code.jquery.com/jquery-1.9.1.min.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js&quot;&gt;&lt;/script&gt;
-				</pre>
-            <p>This is content color swatch "A" and a preview of a <a href="#" class="ui-link">link</a>.</p>
-            <label for="slider1">Input slider:</label>
-            <input type="range" name="slider1" id="Range3" value="50" min="0" max="100" data-theme="a" />
-            <fieldset data-role="controlgroup" data-type="horizontal" data-role="fieldcontain">
-                <legend>Cache settings:</legend>
-                <input type="radio" name="radio-choice-a1" id="radio5" value="on" checked="checked" />
-                <label for="radio-choice-a1">On</label>
-                <input type="radio" name="radio-choice-a1" id="radio6" value="off" />
-                <label for="radio-choice-b1">Off</label>
-            </fieldset>
-            <p>Your theme was successfully downloaded. You can use this page as a reference for how to link it up!</p>
-            <pre>
-<strong>&lt;link rel=&quot;stylesheet&quot; href=&quot;themes/mStore.min.css&quot; /&gt;</strong>
-&lt;link rel=&quot;stylesheet&quot; href=&quot;http://code.jquery.com/mobile/1.3.1/jquery.mobile.structure-1.3.1.min.css&quot; /&gt;
-&lt;script src=&quot;http://code.jquery.com/jquery-1.9.1.min.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js&quot;&gt;&lt;/script&gt;
-				</pre>
-            <p>This is content color swatch "A" and a preview of a <a href="#" class="ui-link">link</a>.</p>
-            <label for="slider1">Input slider:</label>
-            <input type="range" name="slider1" id="Range4" value="50" min="0" max="100" data-theme="a" />
-            <fieldset data-role="controlgroup" data-type="horizontal" data-role="fieldcontain">
-                <legend>Cache settings:</legend>
-                <input type="radio" name="radio-choice-a1" id="radio7" value="on" checked="checked" />
-                <label for="radio-choice-a1">On</label>
-                <input type="radio" name="radio-choice-a1" id="radio8" value="off" />
-                <label for="radio-choice-b1">Off</label>
-            </fieldset>
-            <p>Your theme was successfully downloaded. You can use this page as a reference for how to link it up!</p>
-            <pre>
-<strong>&lt;link rel=&quot;stylesheet&quot; href=&quot;themes/mStore.min.css&quot; /&gt;</strong>
-&lt;link rel=&quot;stylesheet&quot; href=&quot;http://code.jquery.com/mobile/1.3.1/jquery.mobile.structure-1.3.1.min.css&quot; /&gt;
-&lt;script src=&quot;http://code.jquery.com/jquery-1.9.1.min.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js&quot;&gt;&lt;/script&gt;
-				</pre>
-            <p>This is content color swatch "A" and a preview of a <a href="#" class="ui-link">link</a>.</p>
-            <label for="slider1">Input slider:</label>
-            <input type="range" name="slider1" id="Range5" value="50" min="0" max="100" data-theme="a" />
-            <fieldset data-role="controlgroup" data-type="horizontal" data-role="fieldcontain">
-                <legend>Cache settings:</legend>
-                <input type="radio" name="radio-choice-a1" id="radio9" value="on" checked="checked" />
-                <label for="radio-choice-a1">On</label>
-                <input type="radio" name="radio-choice-a1" id="radio10" value="off" />
-                <label for="radio-choice-b1">Off</label>
-            </fieldset>
+        
+        <div data-role="content">
+            <ul data-role="listview" data-dividertheme="c">
+                <li data-role="list-divider">Light Theme</li>
+                <li><a href="activityIndicator.html">Activity Indicator</a></li>
+                <li><a href="actionbar_sample.html">Action Bar Sample</a></li>
+                <li><a href="application_menu.html">Application Menu</a></li>
+                <li><a href="bb_activity_indicator.html">BB10 Activity Indicator</a></li>
+                <li><a href="building_blocks.html" data-transition="cover">Building Blocks - Light</a></li>
+                <li><a href="buttons.html">Buttons</a></li>
+                <li><a href="button_groups.html">Button Groups</a></li>
+                <li><a href="checkboxes.html">Checkboxes</a></li>
+                <li><a href="collapsible_blocks.html">Collapsible Content Blocks</a></li>
+                <li><a href="collapsible_set.html">Collapsible Sets</a></li>
+                <li><a href="text.html">Content Formatting</a></li>
+                <li><a href="controlgroups.html">Control Groups</a></li>
+                <li><a href="form.html">Forms Gallery</a></li>
+                <li><a href="gridview.html">Grid View</a></li>
+                <li><a href="listview.html">List View</a></li>
+                <li><a href="progress.html">Progress Bar</a></li>
+                <li><a href="radio.html">Radio Button Groups</a></li>
+                <li><a href="segmented_control.html">Segmented Control</a></li>
+                <li><a href="slider.html">Slider</a></li>
+                <li><a href="textfields.html">Text Fields</a></li>
+                <li><a href="text_validation.html">Text Field Validation</a></li>
+                <li><a href="titlebar.html">Title Bar Components</a></li>
+                <li><a href="toggleSwitch.html">ToggleSwitch</a></li>
+                <li data-role="list-divider">Dark Theme</li>
+                <li><a href="building_blocks_dark.html">Building Blocks</a></li>
+                <li><a href="buttons_dark.html">Buttons</a></li>
+                <li><a href="button_groups_dark.html">Button Groups</a></li>
+                <li><a href="checkboxes_dark.html">Checkboxes</a></li>
+                <li><a href="collapsible_blocks_dark.html">Collapsible Content Blocks</a></li>
+                <li><a href="collapsible_set_dark.html">Collapsible Sets</a></li>
+                <li><a href="text_dark.html">Content Formatting</a></li>
+                <li><a href="controlgroups_dark.html">Control Groups</a></li>
+                <li><a href="form_dark.html">Forms Gallery</a></li>
+                <li><a href="gridview_dark.html">Grid View</a></li>
+                <li><a href="listview_dark.html">List View</a></li>
+                <li><a href="radio_dark.html">Radio Button Groups</a></li>
+                <li><a href="segmented_control_dark.html">Segmented Control</a></li>
+                <li><a href="slider_dark.html">Slider</a></li>
+                <li><a href="toggleSwitch_dark.html">ToggleSwitch</a></li>
+            </ul>
+        </div>-->
+
+        <div data-role="header" data-position="fixed" class="header_bar" data-theme="b" >
+            <img src="images/logo_ontitle.png" class="title_image" />
+
+            <div class="title_text">Ứng dụng thương mại điện tử</div>
+        </div>
+        <div data-role="content" data-theme="C">  
+            <!-- Text field -->
+			<div data-role="fieldcontain" class="homesearch">
+                <input type="search" name="password" id="search" value="" placeholder="Nhập từ cần tìm ...">				
+			</div>          
+
+
+            <hr class="gradient">
+
+            <!-- Text Gradient -->
+			<div data-role="fieldcontain">
+				<label for="textarea">Textarea</label>
+				<textarea name="textarea" id="textarea">I'm a basic textarea. If this is pre-populated with content, the height will be automatically adjusted to fit without needing to scroll. That is a pretty handy usability feature.
+				</textarea>
+			</div>
+
+			<hr class="gradient">
+			
+			<!-- Radio -->
+			<div data-role="fieldcontain">
+				<fieldset data-role="controlgroup">
+					<legend>Radio</legend>
+					<input type="radio" name="radio-choice-1" id="radio-choice-1-1" value="choice-1" checked="checked" data-iconpos="right"/>
+					<label for="radio-choice-1-1">Radio Button A</label>
+					<input type="radio" name="radio-choice-1" id="radio-choice-1-2" value="choice-2" data-iconpos="right"/>
+					<label for="radio-choice-1-2">Radio Button B</label>
+				</fieldset>
+			</div>
+			
+			
+			
+			<!-- Checkbox -->
+			<div data-role="fieldcontain">
+				<fieldset data-role="controlgroup">
+					<legend>Checkbox</legend>
+					<input type="checkbox" name="checkbox-choice-1" id="checkbox-choice-1-1" value="choice-1" checked="checked" data-iconpos="right"/>
+					<label for="checkbox-choice-1-1">Checkbox A</label>
+					<input type="checkbox" name="checkbox-choice-1" id="checkbox-choice-1-2" value="choice-2" data-iconpos="right"/>
+					<label for="checkbox-choice-1-2">Checkbox B</label>
+				</fieldset>	
+			</div>
+			<hr class="gradient">
+			
+			<h2>Progress Bar</h2>
+			<progress value="20" max="100"></progress>
+			<progress value="100" max="100"></progress>
         </div>
         <div data-role="footer" class="bottom_bar" data-position="fixed">
             <ul>
-                <li><a href="home.html">
+                <li><a href="index.html">
                     <img src="icons/48_white/Home.png" /></a></li>
-                <li><a href="inbox.html"><img src="icons/48_white/Messages-Information.png" /></a></li>
-                <li><a href="cart.html"><img src="icons/48_white/Shopping-Cart-02.png" /></a></li>
-                <li><a href="wishlist.html"><img src="icons/48_white/Favorites.png" /></a></li>
-                <li><a href="more.html"><img src="icons/48_white/View-Details.png" /></a></li>
+                <li><a href="inbox.html">
+                    <img src="icons/48_white/Messages-Information.png" /></a></li>
+                <li><a href="cart.html">
+                    <img src="icons/48_white/Shopping-Cart-02.png" /></a></li>
+                <li><a href="wishlist.html">
+                    <img src="icons/48_white/Favorites.png" /></a></li>
+                <li><a href="more.html">
+                    <img src="icons/48_white/View-Details.png" /></a></li>
             </ul>
         </div>
     </div>
