@@ -1,0 +1,200 @@
+﻿
+#content {
+    height: 620px;
+    width: 700px;
+    overflow: hidden;
+    position: relative;
+    border: 0px solid black;
+    margin: 0 auto;
+}
+
+#imgs {
+    float: left;
+    display: inline;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    padding: 0px;
+    margin: 0px;
+    width: 2200px;
+    /*apply a transfor to kick in the hardware acceleration.  Without this, the first time we add the transform you get odd rendering of the divs (half missing) */
+    -webkit-transform: translate3d(0px,0px,0px);
+}
+
+    #imgs img {
+        padding: 0px;
+        margin: 5px 50px;
+        width: 600px;
+        height: 600px;
+        /*apply a transfor to kick in the hardware acceleration.  Without this, the first time we add the transform you get odd rendering of the divs (half missing) */
+        -webkit-transform: translate3d(0px,0px,0px);
+        border: 0px solid black;
+    }
+
+.productName {
+}
+
+.productImage {
+    width: 100%;
+}
+
+.productPriceInfo {
+    margin-top: 10px;
+    border: 0px solid black;
+    min-height: 250px;
+}
+
+    .productPriceInfo .productPrice {
+        float: left;
+        width: 450px;
+        border: 0px solid black;
+    }
+
+        .productPriceInfo .productPrice .price_title {
+            display: table-cell;
+            font-size: 25px;
+            font-weight: normal;
+            padding: 5px;
+            width: 80px;
+            text-align: left;
+        }
+
+        .productPriceInfo .productPrice .price_content {
+            display: table-cell;
+            font-weight: normal;
+            letter-spacing: 5px;
+            color: #ff0000;
+            padding: 5px;
+            width: 350px;
+            font-size: 40px;
+        }
+
+        .productPriceInfo .productPrice .oldprice_title {
+            display: table-cell;
+            font-size: 25px;
+            font-weight: normal;
+            padding: 5px;
+            width: 80px;
+            text-align: left;
+        }
+
+        .productPriceInfo .productPrice .oldprice_content {
+            display: table-cell;
+            font-size: 25px;
+            font-weight: normal;
+            padding: 5px;
+            width: 350px;
+            text-decoration: line-through;
+        }
+
+        .productPriceInfo .productPrice .moreprice_title {
+            display: table-cell;
+            font-size: 25px;
+            font-weight: normal;
+            padding: 5px;
+            width: 80px;
+            text-align: left;
+        }
+
+        .productPriceInfo .productPrice .moreprice_content {
+            display: table-cell;
+            font-size: 25px;
+            font-weight: normal;
+            padding: 5px;
+            width: 350px;
+        }
+
+        .productPriceInfo .productPrice .review_title {
+            display: table-cell;
+            font-size: 25px;
+            font-weight: normal;
+            padding: 5px;
+            width: 120px;
+            text-align: left;
+        }
+
+        .productPriceInfo .productPrice .review_content {
+            display: table-cell;
+            font-size: 25px;
+            font-weight: normal;
+            padding: 20px 5px 5px 5px;
+            width: 280px;
+        }
+
+            .productPriceInfo .productPrice .review_content a {
+                font-size: 25px;
+                font-weight: normal;
+            }
+
+    .productPriceInfo .actionCart {
+        background-color: #e5f5ff;
+        float: right;
+        width: 240px;
+        border: 0px solid black;
+        padding: 20px;
+    }
+
+        .productPriceInfo .actionCart .bg-buttonCart {
+            line-height: 38px;
+            height: 50px;
+            border: 0px;
+            border-image: initial;
+            -webkit-border-radius: 8px;
+            border-radius: 8px;
+            box-shadow: rgb(136, 136, 136) 5px 5px 5px;
+            background: linear-gradient(rgb(226, 118, 15) 1%, rgb(229, 99, 21) 98%);
+            padding: 15px;
+        }
+
+            .productPriceInfo .actionCart .bg-buttonCart .icon-buttonCart {
+                float: left;
+                width: 100%;
+                height: 100%;
+                background-image: url('../icons/48_white/Add-To-Cart.png');
+                background-repeat: no-repeat;
+            }
+
+            .productPriceInfo .actionCart .bg-buttonCart .txt-cartTxt {
+                margin: 5px auto;
+                font-size: 36px;
+                color: #ffffff;
+                text-align: right;
+            }
+
+        .productPriceInfo .actionCart .addToWishList {
+            margin-top: 20px;
+        }
+
+            .productPriceInfo .actionCart .addToWishList a {
+                line-height: 1px;
+                font-size: 30px;
+                font-weight: normal;
+            }
+
+.productDecription {
+    margin-top: 0px;
+    border: 0px solid black;
+}
+
+    .productDecription .decription_title {
+        color: #315d93;
+        font-size: 40px;
+        border-bottom: 2px solid rgb(136, 136, 136);
+    }
+
+    .productDecription .decription_content {
+    }
+
+.productSimilar {
+    margin-top: 20px;
+    border: 0px solid black;
+}
+
+    .productSimilar .similar_title {
+        color: #315d93;
+        font-size: 40px;
+        border-bottom: 2px solid rgb(136, 136, 136);
+    }
+
+    .productDecription .similar_content {
+    }

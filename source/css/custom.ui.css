@@ -3,7 +3,7 @@
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
     background-image: -webkit-linear-gradient(#ffffff, #ffffff);
     background-image: linear-gradient(#fdfdfd, #ffffff);
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: #2f3e46;
     text-shadow: 0 1px 1px #f6f6f6;
 }
