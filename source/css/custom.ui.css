@@ -39,6 +39,9 @@
             border: 0px solid black;
             background-repeat: no-repeat;
             background-position: center center;
+            background-position-x: 50%;
+            background-position-y: 50%;
+            -webkit-background-position: 50% 50%;
         }
 
             .bottom_bar ul li a div {
