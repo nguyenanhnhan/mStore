@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:rim="http://www.blackberry.com/ns/widgets"
-        version="2.0.0.21" id="mStore">
+        version="2.0.0.23" id="mStore">
  
   <author href="http://www.mStoreC2C.com/"
           rim:copyright="Copyright 2013 mStore Team">mStore Team</author>
