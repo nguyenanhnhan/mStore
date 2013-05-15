@@ -177,17 +177,17 @@
         -webkit-border-radius: 8px;
         border-radius: 8px;
         /*box-shadow: rgb(136, 136, 136) 5px 5px 5px;*/
-        background: linear-gradient(#e7e7e7 1%, #e7e7e7 98%);
-        background-image: -webkit-gradient(linear, left top, left bottom, from(#e7e7e7), to(#e7e7e7));
-        background-image: -webkit-linear-gradient(#e7e7e7, #e7e7e7);
-        background-image: linear-gradient(#e7e7e7, #e7e7e7);
+        background: linear-gradient(#7ce42c 1%, #7ce42c 98%);
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#7ce42c), to(#7ce42c));
+        background-image: -webkit-linear-gradient(#7ce42c, #7ce42c);
+        background-image: linear-gradient(#7ce42c, #7ce42c);
         padding: 20px;
         background-color: #e7e7e7;
     }
         .actionCart .addToWishList .txt {
             margin: 10px auto;
             font-size: 36px;
-            color: #7ce42c;
+            color: #ffffff;
             text-align: center;
         }
         /*.actionCart .addToWishList a {
