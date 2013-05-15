@@ -70,13 +70,13 @@
 
 
 .header_bar {
-    height: 100px;
+    height: 130px;
     background-image: url('../images/bg_header.png');
     background-repeat: repeat-x;
 }
 
     .header_bar .title_text {
-        font-size: 30px;
+        font-size: 36px;
         color: #ffffff;
         border: 0px solid #000;
         white-space: nowrap;
@@ -85,25 +85,25 @@
 
     .header_bar .home {
         width: 650px;
-        top: 30px;
-        left: 100px;
+        top: 40px;
+        left: 110px;
     }
 
     .header_bar .none {
         width: 740px;
-        top: 30px;
-        left: 10px;
+        top: 40px;
+        left: 20px;
     }
 
     .header_bar .titlebefore {
         width: 600px;
-        top: 30px;
-        left: 120px;
+        top: 40px;
+        left: 140px;
     }
 
     .header_bar .title_image {
-        margin-top: 7px;
-        margin-left: 10px;
+        margin-top: 20px;
+        margin-left: 15px;
     }
 
 .homesearch {
@@ -160,18 +160,18 @@
             }
 
 .ui-header .header-backbutton {
-    width: 100px;
-    min-width: 100px;
-    min-height:80px;
+    width: 130px;
+    min-width: 130px;
+    min-height:110px;
     margin-top: 0px;
     background-image: url("../icons/48_gray/Left-Arrow.png");
     background-repeat:no-repeat;
     background-position: center center;
 }
 .ui-header .header-searchbutton {
-    width: 100px;
-    min-width: 100px;
-    min-height:80px;
+    width: 130px;
+    min-width: 130px;
+    min-height:110px;
     margin-top: 0px;
     background-image: url("../icons/48_gray/Search.png");
     background-repeat:no-repeat;
