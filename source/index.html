@@ -2,12 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>mStore</title>
-
-    <!--<link rel="stylesheet" href="lib_BB10/BlackBerry-JQM-all.css" />
-    <script src="lib_BB10/BlackBerry-JQM-all.js"></script>
-    <script type="text/javascript" src="lib_BB10/app.js"></script>-->
 
     <link rel="stylesheet" href="themes/mStore.css" />
     <link rel="stylesheet" href="css/jquery.mobile.structure-1.3.1.min.css" />
@@ -19,7 +14,12 @@
 
     <script type="text/javascript" src="js/jquery.touchSwipe.js"></script>
     <script type="text/javascript" src="js/jquery.raty.js"></script>
-
+    <script>
+    	var meta = document.createElement("meta");
+		meta.setAttribute('name','viewport');
+		meta.setAttribute('content','initial-scale='+ (1/window.devicePixelRatio) + ',user-scalable=no');
+		document.getElementsByTagName('head')[0].appendChild(meta);
+    </script>
 </head>
 <body>
     <div data-role="page" data-theme="b" id="home_page" class="pages">

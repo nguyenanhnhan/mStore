@@ -6,6 +6,7 @@
     /*font-weight: bold;*/
     color: #2f3e46;
     text-shadow: 0 1px 1px #f6f6f6;
+    font-size: 36px
 }
 
     .pages .ui-body-b {
@@ -38,11 +39,14 @@
             border: 0px solid black;
             background-repeat: no-repeat;
             background-position: center center;
+            background-position-x: 50%;
+            background-position-y: 50%;
+            -webkit-background-position: 50% 50%;
         }
 
             .bottom_bar ul li a div {
-                min-width: 150px;
-                height: 100px;
+                min-width: 153px;
+                height: 120px;
             }
 
             .bottom_bar ul li.home {
