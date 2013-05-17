@@ -20,7 +20,7 @@
 <body>
     <div data-role="page" data-theme="b" id="home_page" class="pages">
 
-        <div data-role="header" data-position="fixed" class="header_bar" data-theme="d">
+        <div data-role="header" data-position="fixed" class="header_bar" data-theme="d" data-tap-toggle="false">
             <div class="title_text none">Tìm kiếm sản phẩm</div>
         </div>
         <div data-role="content" data-theme="C">
@@ -30,7 +30,7 @@
             </div>
 
         </div>
-        <div data-role="footer" class="bottom_bar" data-position="fixed">
+        <div data-role="footer" class="bottom_bar" data-position="fixed" data-tap-toggle="false">
             <ul>
                 <li class="home"><a href="index.html">
                     <div></div>
@@ -38,9 +38,13 @@
                 <li class="inbox"><a href="inbox.html">
                     <div></div>
                 </a></li>
-                <li class="cart"><a href="cart.html">
-                    <div></div>
-                </a></li>
+                <li class="cart">
+                    <a href="cart.html">
+                        <div>
+                            <div class="cartQuantity">2</div>
+                        </div>
+                    </a>
+                </li>
                 <li class="wishlist"><a href="wishlist.html"></a>
                     <div></div>
                 </li>
