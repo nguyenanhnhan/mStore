@@ -1,0 +1,14 @@
+.list_item_title_inbox {
+	font-size: 40px;
+	font-weight: bold;
+}
+.list_item_subtitle_inbox {
+	font-size: 30px;
+}
+.list_item_subtitle_wrap {
+	width: 560px;
+}
+
+.ui-li-has-count .ui-li-count {
+	font-size: 30px;
+}
