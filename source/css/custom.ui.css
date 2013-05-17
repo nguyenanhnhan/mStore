@@ -46,6 +46,18 @@
                 min-width: 150px;
                 height: 100px;
             }
+            .bottom_bar ul li div.cartQuantity {
+                background-image: url('../icons/40_red/Message-Information.png');
+                background-repeat:no-repeat;
+                min-width: 40px;
+                height: 40px;
+                float:left;
+                text-align:center;
+                padding-top:3px;
+                color:#ffffff;
+                margin-left:20px;
+                font-size:30px;
+            }
 
             .bottom_bar ul li.home {
                 background-image: url('../icons/80_white/Home.png');
@@ -76,7 +88,7 @@
 }
 
     .header_bar .title_text {
-        font-size: 36px;
+        font-size: 45px;
         color: #ffffff;
         border: 0px solid #000;
         white-space: nowrap;
@@ -130,8 +142,8 @@
     }
 
         .homeProducts .group_Products .title {
-            color: #fca62b;
-            font-size:36px;
+            color: #ff6a00;
+            font-size:40px;
         }
 
         .homeProducts .group_Products .more {

@@ -16,10 +16,10 @@
     <script type="text/javascript" src="js/jquery.touchSwipe.js"></script>
     <script type="text/javascript" src="js/jquery.raty.js"></script>
     <script>
-    	var meta = document.createElement("meta");
-		meta.setAttribute('name','viewport');
-		meta.setAttribute('content','initial-scale='+ (1/window.devicePixelRatio) + ',user-scalable=no');
-		document.getElementsByTagName('head')[0].appendChild(meta);
+        var meta = document.createElement("meta");
+        meta.setAttribute('name', 'viewport');
+        meta.setAttribute('content', 'initial-scale=' + (1 / window.devicePixelRatio) + ',user-scalable=no');
+        document.getElementsByTagName('head')[0].appendChild(meta);
     </script>
 </head>
 <body>
@@ -37,7 +37,7 @@
             <div class="homeProducts">
                 <div class="group_Products ">
                     <span class="title">Giới thiệu sản phẩm</span>
-                    <a class="more">xem thêm</a>
+                    <!--<a class="more">xem thêm</a>-->
                     <hr />
                     <div class="product" id="product_001">
                         <img src="icons/48_blue/Home.png" />
@@ -53,7 +53,7 @@
             <div class="homeProducts">
                 <div class="group_Products ">
                     <span class="title">Sản phẩm bạn đã xem</span>
-                    <a class="more">xem thêm</a>
+                    <!--<a class="more">xem thêm</a>-->
                     <hr />
                     <div class="product">
                         <img src="icons/48_blue/Home.png" />
@@ -69,7 +69,7 @@
             <div class="homeProducts">
                 <div class="group_Products ">
                     <span class="title">Các đề nghị từ lược sử của bạn</span>
-                    <a class="more">xem thêm</a>
+                    <!--<a class="more">xem thêm</a>-->
                     <hr />
                     <div class="product">
                         <img src="icons/48_blue/Home.png" />
@@ -83,7 +83,7 @@
                 </div>
             </div>
         </div>
-        <div data-role="footer" class="bottom_bar" data-position="fixed">
+        <div data-role="footer" data-id="mfooter" class="bottom_bar" data-position="fixed">
             <ul>
                 <li class="home"><a href="index.html">
                     <div></div>
@@ -91,9 +91,13 @@
                 <li class="inbox"><a href="inbox.html">
                     <div></div>
                 </a></li>
-                <li class="cart"><a href="cart.html">
-                    <div></div>
-                </a></li>
+                <li class="cart">
+                    <a href="cart.html">
+                        <div>
+                            <div class="cartQuantity">2</div>
+                        </div>
+                    </a>
+                </li>
                 <li class="wishlist"><a href="wishlist.html"></a>
                     <div></div>
                 </li>

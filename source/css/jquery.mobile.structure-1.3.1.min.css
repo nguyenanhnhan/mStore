@@ -98,7 +98,7 @@ body.ui-mobile-viewport, div.ui-mobile-viewport {
 }
 
 .ui-loader-verbose h1 {
-    font-size: 36px;
+    font-size: 40px;
     margin: 0;
     text-align: center;
 }
@@ -146,14 +146,14 @@ body.ui-mobile-viewport, div.ui-mobile-viewport {
 }
 
 .ui-bar {
-    font-size: 36px;
+    font-size: 40px;
     margin: 0;
 }
 
     .ui-bar h1, .ui-bar h2, .ui-bar h3, .ui-bar h4, .ui-bar h5, .ui-bar h6 {
         margin: 0;
         padding: 0;
-        font-size: 36px;
+        font-size: 40px;
         display: inline-block;
     }
 
@@ -195,7 +195,7 @@ body.ui-mobile-viewport, div.ui-mobile-viewport {
 .ui-header .ui-title, .ui-footer .ui-title {
     min-height: 1.1em;
     text-align: center;
-    font-size: 36px;
+    font-size: 40px;
     display: block;
     margin: .6em 30% .8em;
     padding: 0;
@@ -1715,7 +1715,7 @@ body.ui-mobile-viewport, div.ui-mobile-viewport {
 }
 
 .ui-btn-inner {
-    font-size: 36px;
+    font-size: 40px;
     padding: .6em 20px;
     min-width: .75em;
     display: block;
@@ -1758,7 +1758,7 @@ body.ui-mobile-viewport, div.ui-mobile-viewport {
 }
 
 .ui-fullsize .ui-btn-inner, .ui-fullsize .ui-btn-inner {
-    font-size: 36px;
+    font-size: 40px;
     padding: .6em 20px;
 }
 
@@ -1920,7 +1920,7 @@ div.ui-btn-text {
 }
 
 label.ui-submit {
-    font-size: 36px;
+    font-size: 40px;
     line-height: 1.4;
     font-weight: 400;
     margin: 0 0 .3em;
@@ -1955,7 +1955,7 @@ label.ui-submit {
 }
 
 .ui-collapsible-heading {
-    font-size: 36px;
+    font-size: 40px;
     display: block;
     margin: 0 -15px;
     padding: 0;
@@ -2119,7 +2119,7 @@ label.ui-submit {
 }
 
 .ui-controlgroup-label {
-    font-size: 36px;
+    font-size: 40px;
     line-height: 1.4;
     font-weight: 400;
     margin: 0 0 .4em;
@@ -2175,7 +2175,7 @@ label.ui-submit {
 }
 
 .ui-controlgroup .ui-checkbox label, .ui-controlgroup .ui-radio label {
-    font-size: 36px;
+    font-size: 40px;
 }
 
 .ui-controlgroup-horizontal .ui-controlgroup-controls:before, .ui-controlgroup-horizontal .ui-controlgroup-controls:after {
@@ -2378,7 +2378,7 @@ label.ui-submit {
     }
 
     .ui-popup .ui-title {
-        font-size: 36px;
+        font-size: 40px;
         font-weight: 700;
         margin-top: .5em;
         margin-bottom: .5em;
@@ -2419,7 +2419,7 @@ label.ui-submit {
 
 @media all and (min-width:28em) {
     .ui-popup .ui-field-contain label.ui-submit, .ui-popup .ui-field-contain .ui-controlgroup-label, .ui-popup .ui-field-contain label.ui-select, .ui-popup .ui-field-contain label.ui-input-text {
-        font-size: 36px;
+        font-size: 40px;
         line-height: 1.4;
         display: block;
         font-weight: 400;
@@ -2682,7 +2682,7 @@ label.ui-submit {
 }
 
 label.ui-select {
-    font-size: 36px;
+    font-size: 40px;
     line-height: 1.4;
     font-weight: 400;
     margin: 0 0 .3em;
@@ -2764,7 +2764,7 @@ label.ui-select {
 }
 
 label.ui-input-text {
-    font-size: 36px;
+    font-size: 40px;
     line-height: 1.4;
     display: block;
     font-weight: 400;
@@ -2777,7 +2777,7 @@ input.ui-input-text, textarea.ui-input-text {
     margin: .5em 0;
     min-height: 1.4em;
     line-height: 1.4em;
-    font-size: 36px;
+    font-size: 40px;
     display: block;
     width: 100%;
     outline: 0;
@@ -3182,7 +3182,7 @@ ol.ui-listview .ui-li-jsnumbering:before {
     }
 
 .ui-li-heading {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 700;
     display: block;
     margin: .6em 0;
@@ -3365,7 +3365,7 @@ ol.ui-listview > .ui-li .ui-li-desc:not(.ui-li-aside) {
 }
 
 label.ui-slider {
-    font-size: 36px;
+    font-size: 40px;
     line-height: 1.4;
     font-weight: 400;
     margin: 0;
@@ -3539,7 +3539,7 @@ div.ui-slider-switch {
     text-align: center;
     width: 100%;
     overflow: hidden;
-    font-size: 36px;
+    font-size: 40px;
     top: 0;
     line-height: 2;
     min-height: 100%;

@@ -1,0 +1,102 @@
+﻿
+#content {
+    height: 620px;
+    width: 700px;
+    overflow: hidden;
+    position: relative;
+    border: 0px solid black;
+    margin: 0 auto;
+}
+
+.checkout-guide {
+    font-size: 30px;
+}
+
+    .checkout-guide .note {
+        display: table-cell;
+        width: 60%;
+    }
+
+    .checkout-guide .support {
+        background-color: #e5f5ff;
+        border: 0px solid black;
+        padding: 20px;
+        display: table-cell;
+        width: 38%;
+        line-height: 50px;
+        text-align: center;
+    }
+
+        .checkout-guide .support .phone {
+            /*background-image: url('../icons/40_gray/Mobile-Phone-Blackberry.png');            
+            background-repeat: no-repeat;
+            padding-left:50px;*/
+            font-size: 45px;
+            color: red;
+        }
+
+.checkout-productList {
+}
+
+    .checkout-productList li {
+        background: #ffffff /*{b-bup-background-color}*/;
+        font-weight: bold;
+        color: #2f3e46 /*{b-bup-color}*/;
+        text-shadow: 0 /*{b-bup-shadow-x}*/ 1px /*{b-bup-shadow-y}*/ 0 /*{b-bup-shadow-radius}*/ #ffffff /*{b-bup-shadow-color}*/;
+        background-image: -webkit-gradient(linear, left top, left bottom, from( #ffffff /*{b-bup-background-start}*/ ), to( #ffffff /*{b-bup-background-end}*/ ));
+        background-image: -webkit-linear-gradient( #ffffff /*{b-bup-background-start}*/, #ffffff /*{b-bup-background-end}*/ );
+        background-image: -moz-linear-gradient( #ffffff /*{b-bup-background-start}*/, #ffffff /*{b-bup-background-end}*/ );
+        background-image: -ms-linear-gradient( #ffffff /*{b-bup-background-start}*/, #ffffff /*{b-bup-background-end}*/ );
+        background-image: -o-linear-gradient( #ffffff /*{b-bup-background-start}*/, #ffffff /*{b-bup-background-end}*/ );
+        background-image: linear-gradient( #ffffff /*{b-bup-background-start}*/, #ffffff /*{b-bup-background-end}*/ );
+    }
+
+        .checkout-productList li a {
+        }
+
+            .checkout-productList li a .images-thumnail {
+                display: table-cell;
+                max-width: 235px;
+                width: 235px;
+            }
+
+                .checkout-productList li a .images-thumnail img {
+                    width: 230px;
+                    height: 230px;
+                    min-width: 230px;
+                    min-height: 230px;
+                    position: relative;
+                }
+
+            .checkout-productList li a .productInfo {
+                display: table-cell;
+            }
+
+.actionPayment {
+    background-color: #e5f5ff;
+    border: 0px solid black;
+    padding: 20px;
+}
+
+    .actionPayment .bg-buttonPayment {
+        line-height: 38px;
+        height: 60px;
+        border: 0px;
+        border-image: initial;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        box-shadow: rgb(136, 136, 136) 5px 5px 5px;
+        background: linear-gradient(rgb(226, 118, 15) 1%, rgb(229, 99, 21) 98%);
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(226, 118, 15)), to(rgb(229, 99, 21)));
+        background-image: -webkit-linear-gradient(rgb(226, 118, 15), rgb(229, 99, 21));
+        background-image: linear-gradient(rgb(226, 118, 15), rgb(229, 99, 21));
+        padding: 20px;
+        background-color: rgb(226, 118, 15);
+    }
+
+        .actionPayment .bg-buttonPayment .txt {
+            margin: 10px auto;
+            font-size: 50px;
+            color: #ffffff;
+            text-align: center;
+        }
