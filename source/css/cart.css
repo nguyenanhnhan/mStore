@@ -193,7 +193,7 @@
         font-weight: bold;
         text-align: right;
         min-height: 45px;
-        font-weight:normal;
+        font-weight:bold;
     }
 
         .actionPayment .totalQuantity .title {
@@ -206,7 +206,7 @@
             float: right;            
             width: 400px;
             text-align: left;
-            margin-left:20px;
+            margin-left:20px;            
         }
 
     .actionPayment .top {
