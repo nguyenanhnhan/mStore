@@ -40,12 +40,26 @@
     background-position: center center;
 }
 
+.ui-header .header-mail-send {
+    width: 130px;
+    min-width: 130px;
+    min-height:110px;
+    margin-top: 0px;
+    background-image: url("../icons/48_gray/Send.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
 .ui-li-has-count .ui-li-count {
 	font-size: 30px;
 }
 
 .ui-panel {
 	width: 400px;
+}
+
+.ui-panel-dismiss {
+	z-index: 1;
 }
 
 .ui-panel-animate.ui-panel-content-fixed-toolbar-position-right.ui-panel-content-fixed-toolbar-open.ui-panel-content-fixed-toolbar-display-reveal, .ui-panel-animate.ui-panel-content-fixed-toolbar-position-right.ui-panel-content-fixed-toolbar-open.ui-panel-content-fixed-toolbar-display-push, .ui-panel-animate.ui-panel-content-wrap-position-right.ui-panel-content-wrap-open.ui-panel-content-wrap-display-reveal, .ui-panel-animate.ui-panel-content-wrap-position-right.ui-panel-content-wrap-open.ui-panel-content-wrap-display-push
