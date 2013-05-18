@@ -2295,8 +2295,8 @@ label.ui-submit {
 }
 
 .ui-dialog-contain {
-    width: 92.5%;
-    max-width: 500px;
+    width: 99%;
+    max-width: 700px;
     margin: 10% auto 15px;
     padding: 0;
     position: relative;
@@ -3092,7 +3092,7 @@ ol.ui-listview, ol.ui-listview .ui-li-divider {
 
 .ui-li-divider {
     padding: .5em 15px;
-    font-size: 14px;
+    font-size: 40px;
     font-weight: 700;
 }
 
