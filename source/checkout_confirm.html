@@ -6,8 +6,69 @@
     </div>
     <div data-role="content">
 
-        <link rel="stylesheet" href="css/checkout.css" />
-        
+        <div class="confirmOrder_title">
+            Thông tin khách hàng
+        </div>
+        <div class="confirmOrder_content">
+            <div class="name">Hoàng Dũng</div>
+            <div class="address">327 Lê Trọng Tấn, Phường Sơn Kỳ, Quận Tân Phú, Tp.Hồ Chí Minh</div>
+            <div class="phone">0983435755</div>
+
+            <div class="desc">Địa chỉ giao hàng</div>
+            <div class="name">Nguyễn Ảnh Nhân</div>
+            <div class="address">327 Lê Trọng Tấn, Phường Sơn Kỳ, Quận Tân Phú, Tp.Hồ Chí Minh</div>
+            <div class="phone">0983435755</div>
+        </div>
+
+        <div class="confirmOrder_title">
+            Hình thức thanh toán
+        </div>
+        <div class="confirmOrder_content">
+            <div class="name">Trả tiền khi nhận hàng</div>
+        </div>
+        <div class="confirmOder_table">
+            <table data-role="table" id="productList" data-mode="reflow" class="ui-responsive table-stroke">
+                <thead>
+                    <tr>
+                        <th data-priority="1">Sản phẩm</th>
+                        <th data-priority="2">Giá VNĐ</th>
+                        <th data-priority="3">SL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="name"><a href="#" data-rel="external">HTC One - Điện thoại di động tích hợp nhiều công nghệ cao cấp nhất hiện nay</a></td>
+                        <td class="price">15.990.000</td>
+                        <td class="quantity">1</td>
+                    </tr>
+                    <tr>
+                        <td class="name"><a href="#" data-rel="external">HTC One - Điện thoại di động</a></td>
+                        <td class="price">15.990.000</td>
+                        <td class="quantity">2</td>
+                    </tr>
+                    <tr>
+                        <td class="name"><a href="#" data-rel="external">HTC One - Công nghệ cao cấp nhất hiện nay</a></td>
+                        <td class="price">15.990.000</td>
+                        <td class="quantity">1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="actionConfirmOrder">
+            <div class="totalQuantity bottom">
+                <div class="value">6</div>
+                <div class="title">Tổng số:</div>
+            </div>
+            <div class="totalPrice bottom">
+                <div class="value">47.990.000 VNĐ</div>
+                <div class="title">Tổng tiền:</div>
+            </div>
+            <div class="bg-buttonConfirmOrder" title="Confirm Order">
+                <div class="txt">Xác nhận đặt hàng</div>
+            </div>
+        </div>
+
     </div>
     <div data-role="footer" data-id="mfooter" class="bottom_bar" data-position="fixed" data-tap-toggle="false">
         <ul>
