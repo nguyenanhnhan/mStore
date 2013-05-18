@@ -2,6 +2,10 @@
 	font-size: 40px;
 	font-weight: bold;
 }
+.list_item_title_inbox_viewed{
+	font-size: 40px;
+	font-weight: 200px
+}
 .list_item_subtitle_inbox {
 	font-size: 30px;
 }
@@ -47,4 +51,8 @@
 .ui-panel-animate.ui-panel-content-fixed-toolbar-position-right.ui-panel-content-fixed-toolbar-open.ui-panel-content-fixed-toolbar-display-reveal, .ui-panel-animate.ui-panel-content-fixed-toolbar-position-right.ui-panel-content-fixed-toolbar-open.ui-panel-content-fixed-toolbar-display-push, .ui-panel-animate.ui-panel-content-wrap-position-right.ui-panel-content-wrap-open.ui-panel-content-wrap-display-reveal, .ui-panel-animate.ui-panel-content-wrap-position-right.ui-panel-content-wrap-open.ui-panel-content-wrap-display-push
 {
 	left: -8em;
+}
+.ui-li-has-thumb .ui-btn-inner a.ui-link-inherit
+{
+	padding-left: 120px;
 }
