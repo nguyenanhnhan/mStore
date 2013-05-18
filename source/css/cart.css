@@ -101,7 +101,7 @@
             .checkout-productList li .productQuantity div.title {
                 float: left;
                 width: 50%;
-                margin-top:30px;                
+                margin-top: 25px;
             }
 
             .checkout-productList li .productQuantity div.ui-input-text {
@@ -121,21 +121,21 @@
             border-image: initial;
             -webkit-border-radius: 8px;
             border-radius: 8px;
-            box-shadow: rgb(136, 136, 136) 5px 5px 5px;
-            background: linear-gradient(#528bcf 1%, #528bcf 98%);
-            background-image: -webkit-gradient(linear, left top, left bottom, from(#528bcf), to(#528bcf));
-            background-image: -webkit-linear-gradient(#528bcf, #528bcf);
-            background-image: linear-gradient(#528bcf, #528bcf);
+            /*box-shadow: rgb(136, 136, 136) 5px 5px 5px;*/
+            background: linear-gradient(rgb(136, 136, 136) 1%, rgb(136, 136, 136) 98%);
+            background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(136, 136, 136)), to(rgb(136, 136, 136)));
+            background-image: -webkit-linear-gradient(rgb(136, 136, 136), rgb(136, 136, 136));
+            background-image: linear-gradient(rgb(136, 136, 136), rgb(136, 136, 136));
             padding: 20px;
-            background-color: #528bcf;
+            background-color: rgb(136, 136, 136);
         }
 
             .checkout-productList li .deleteButton .txt {
                 margin: 10px auto;
-                font-size: 50px;
+                font-size: 40px;
                 color: #ffffff;
                 text-align: center;
-                font-weight:normal;
+                font-weight: normal;
             }
 
 .actionPayment {
@@ -169,13 +169,50 @@
 
     .actionPayment .totalPrice {
         font-size: 45px;
-        font-weight:bold;
-        text-align:right;
-        color:red;        
+        font-weight: bold;
+        text-align: right;
+        min-height: 45px;
     }
+
+        .actionPayment .totalPrice .title {
+            float: right;
+            color: rgb(47, 62, 70);
+            text-align: right;
+        }
+
+        .actionPayment .totalPrice .value {
+            float: right;
+            color: red;
+            width: 400px;
+            text-align: left;
+            margin-left:20px;
+        }
+
+    .actionPayment .totalQuantity {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: right;
+        min-height: 45px;
+        font-weight:normal;
+    }
+
+        .actionPayment .totalQuantity .title {
+            float: right;
+            color: rgb(47, 62, 70);
+            text-align: right;
+        }
+
+        .actionPayment .totalQuantity .value {
+            float: right;            
+            width: 400px;
+            text-align: left;
+            margin-left:20px;
+        }
+
     .actionPayment .top {
-        margin-top:30px;
+        margin-top: 30px;
     }
+
     .actionPayment .bottom {
-        margin-bottom:30px;
+        margin-bottom: 30px;
     }

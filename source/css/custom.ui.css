@@ -44,7 +44,7 @@
 
             .bottom_bar ul li a div {
                 min-width: 150px;
-                height: 100px;
+                height: 120px;
             }
             .bottom_bar ul li div.cartQuantity {
                 background-image: url('../icons/40_red/Message-Information.png');
