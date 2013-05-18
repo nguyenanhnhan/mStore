@@ -1,5 +1,5 @@
 ﻿<div data-role="page" data-theme="b" id="resultsearch" class="pages">
-    <div data-role="header" data-theme="d" data-position="fixed" class="header_bar">
+    <div data-role="header" data-theme="d" data-position="fixed" class="header_bar" data-tap-toggle="false">
         <a data-rel="back" class="header-backbutton"></a>
         <div class="title_text titlebefore">Giỏ hàng</div>
         <a href="search.html" class="header-searchbutton"></a>
@@ -22,30 +22,64 @@
             <div class="bg-buttonPayment" title="Payment">
                 <div class="txt">Thực hiện thanh toán</div>
             </div>
+            <div class="totalPrice top"><span style="color: rgb(47, 62, 70);">Tổng cộng:</span> 47.990.000 VNĐ</div>
         </div>
         <ul data-role="listview" data-inset="true" class="checkout-productList">
             <li>
                 <div class="images-thumnail">
                     <img src="demo_resources/HTCOne-a_thumnail.jpg">
                 </div>
-                <div class="productInfo">
-                    <h2>Broken Bells</h2>
-                    <p>Broken Bells</p>
+                <div class="productName">
+                    HTC One - Điện thoại di động tích hợp nhiều công nghệ cao cấp nhất hiện nay                    
+                </div>
+                <div class="productPrice">
+                    <span style="color: rgb(47, 62, 70);">Giá:</span> 15.990.000 VNĐ
+                </div>
+                <div class="productQuantity">
+                    <div class="title">Số lượng:</div>
+                    <input type="number" data-clear-btn="false" name="soluongdathang-001" id="soluongdathang-001" value="">
+                </div>
+                <div class="deleteButton">
+                    <div class="txt">Xóa</div>
                 </div>
                 <!--<a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Xem chi tiết</a>-->
             </li>
             <li>
-                <img src="demo_resources/HTCOne-0_thumnail.jpg">
-                <h2>Warning</h2>
-                <p>Hot Chip</p>
-
+                <div class="images-thumnail">
+                    <img src="demo_resources/HTCOne-0_thumnail.jpg">
+                </div>
+                <div class="productName">
+                    HTC One - Điện thoại di động tích hợp nhiều công nghệ cao cấp nhất hiện nay                    
+                </div>
+                <div class="productPrice">
+                    <span style="color: rgb(47, 62, 70);">Giá:</span> 15.990.000 VNĐ
+                </div>
+                <div class="productQuantity">
+                    <div class="title">Số lượng:</div>
+                    <input type="number" data-clear-btn="false" name="soluongdathang-001" id="Number1" value="">
+                </div>
+                <div class="deleteButton">
+                    <div class="txt">Xóa</div>
+                </div>
                 <!--<a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Xem chi tiết</a>-->
             </li>
             <li>
-                <img src="demo_resources/HTCOne-c_thumnail.jpg">
-                <h2>Wolfgang Amadeus Phoenix</h2>
-                <p>Phoenix</p>
-
+                <div class="images-thumnail">
+                    <img src="demo_resources/HTCOne-c_thumnail.jpg">
+                </div>
+                <div class="productName">
+                    HTC One - Điện thoại di động tích hợp nhiều công nghệ cao cấp nhất hiện nay                    
+                </div>
+                <div class="productPrice">
+                    <span style="color: rgb(47, 62, 70);">Giá:</span> 15.990.000 VNĐ
+                </div>
+                <div class="productQuantity">
+                    <div class="title">Số lượng:</div>
+                    <input type="number" data-clear-btn="false" name="soluongdathang-001" id="Number2" value="">
+                </div>
+                <div class="deleteButton">
+                    <div class="txt">Xóa</div>
+                </div>
                 <!--<a href="#purchase" data-rel="popup" data-position-to="window" data-transition="pop">Xem chi tiết</a>-->
             </li>
         </ul>
@@ -58,13 +92,14 @@
 
 
         <div class="actionPayment">
+            <div class="totalPrice bottom"><span style="color: rgb(47, 62, 70);">Tổng cộng:</span> 47.990.000 VNĐ</div>
             <div class="bg-buttonPayment" title="Payment">
                 <div class="txt">Thực hiện thanh toán</div>
             </div>
         </div>
 
     </div>
-    <div data-role="footer" data-id="mfooter" class="bottom_bar" data-position="fixed">
+    <div data-role="footer" data-id="mfooter" class="bottom_bar" data-position="fixed" data-tap-toggle="false">
         <ul>
             <li class="home"><a href="index.html">
                 <div></div>
@@ -72,13 +107,13 @@
             <li class="inbox"><a href="inbox.html">
                 <div></div>
             </a></li>
-            <li class="cart"><a href="cart.html">
+            <li class="cart">
                 <a href="cart.html">
                     <div>
                         <div class="cartQuantity">2</div>
                     </div>
                 </a>
-            </a></li>
+            </li>
             <li class="wishlist"><a href="wishlist.html"></a>
                 <div></div>
             </li>
