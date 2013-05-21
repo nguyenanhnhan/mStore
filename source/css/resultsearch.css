@@ -1,0 +1,87 @@
+﻿.resultSearch_title {
+    font-size: 48px;
+    color: #00ae17;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.resultsearch-productList {
+}
+
+    .resultsearch-productList li {
+        min-height: 330px;
+        background: #ffffff /*{b-bup-background-color}*/;
+        font-weight: bold;
+        color: #2f3e46 /*{b-bup-color}*/;
+        text-shadow: 0 /*{b-bup-shadow-x}*/ 1px /*{b-bup-shadow-y}*/ 0 /*{b-bup-shadow-radius}*/ #ffffff /*{b-bup-shadow-color}*/;
+        background-image: -webkit-gradient(linear, left top, left bottom, from( #ffffff /*{b-bup-background-start}*/ ), to( #ffffff /*{b-bup-background-end}*/ ));
+        background-image: -webkit-linear-gradient( #ffffff /*{b-bup-background-start}*/, #ffffff /*{b-bup-background-end}*/ );
+        background-image: -moz-linear-gradient( #ffffff /*{b-bup-background-start}*/, #ffffff /*{b-bup-background-end}*/ );
+        background-image: -ms-linear-gradient( #ffffff /*{b-bup-background-start}*/, #ffffff /*{b-bup-background-end}*/ );
+        background-image: -o-linear-gradient( #ffffff /*{b-bup-background-start}*/, #ffffff /*{b-bup-background-end}*/ );
+        background-image: linear-gradient( #ffffff /*{b-bup-background-start}*/, #ffffff /*{b-bup-background-end}*/ );
+    }
+
+        .resultsearch-productList li .images-thumnail {
+            float: left;
+            max-width: 235px;
+            max-height: 230px;
+            width: 35%;
+        }
+
+            .resultsearch-productList li .images-thumnail img {
+                width: 230px;
+                height: 230px;
+                min-width: 230px;
+                min-height: 230px;
+                position: relative;
+            }
+
+        .resultsearch-productList li .productName {
+            padding-top: 10px;
+            float: right;
+            width: 65%;
+            max-height: 150px;
+            min-height: 150px;
+            font-size: 40px;
+            font-weight: normal;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+            margin-bottom: 10px;
+        }
+
+        .resultsearch-productList li .productPrice {
+            float: right;
+            width: 65%;
+            max-height: 100px;
+            font-size: 40px;
+            color: red;
+            margin-bottom: 20px;
+        }
+
+        .resultsearch-productList li .productStatus {
+            float: left;
+            width: 35%;
+            max-height: 100px;
+            font-size: 35px;
+            font-weight: normal;
+        }
+
+        .resultsearch-productList li .supplier {
+            float: right;
+            width: 35%;
+            max-height: 100px;
+            font-size: 40px;
+            font-weight: normal;
+            text-align:right;
+        }
+
+        .resultsearch-productList li .productStar {
+            float: left;
+            width: 30%;
+            max-height: 100px;
+            font-size: 40px;
+            color: red;
+            margin-bottom: 20px;
+        }

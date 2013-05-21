@@ -454,7 +454,8 @@ a.ui-link-inherit {
 .ui-btn-active:visited,
 .ui-btn-active:hover,
 .ui-btn-active a.ui-link-inherit {
-	color: #ffffff /*{global-active-color}*/;
+	/*color: #ffffff {global-active-color}*/;
+    color:green;
 }
 /* button inner top highlight
 -----------------------------------------------------------------------------------------------------------*/
